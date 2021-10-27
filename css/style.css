@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+.section-img {
+    width: 40px;
+    height: 100px;
+
+    float: left;
+    margin-left: 10%;
+}
+
+.section-img img {
+    height: 350%;
+    margin-top: 40px;
+}
+
+.section-info {
+    width: 40%;
+    height: 100%;
+
+    float: right;
+    margin-right: 180px;
+}
+
+.section-info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Rubik, sans-serif;
+    line-height: 50px;
+}
+
+.section-info p {
+    color: rgb(119, 119, 119);
+}
+
+.section-info button {
+    border: none;
+    padding: 40px, 25px;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+        radial-gradient(circle at top left, #4458dc, #854fee);
+
+    position: relative;
+    top: 25px;
+    width: 200px;
+    height: 47px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: "neuzeit-grotesk", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #ffffffee;
+    background-color: var(--theme-color);
+    box-shadow: 0 5px 10px -5px var(--theme-color);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
